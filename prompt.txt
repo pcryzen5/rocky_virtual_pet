@@ -1,0 +1,67 @@
+analyse the C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini
+
+the folder above have the images of the pet(rocky from the movie project hail mary)
+
+it should dance when playing music/song in any brower or youtubemusic app
+it should watch movie when watching movie in any brower or youtube app
+it should sleep when select sleep option from the menu
+it should fistbump when click on fistbump option from the menu
+it should drag when draging/shifting from one position to another position
+it should wave when start the pet
+it should be idle when not in use
+it should go to sleep when selected sleep from menu
+
+i have image for the same in C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini  folder
+
+
+
+
+
+if needed
+
+analyse the C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini
+
+the folder above have the images of the pet(rocky from the movie project hail mary)
+
+I have created image for particular event
+
+these images are created by AI and it is having 5 legs
+take that in consideration and use it to create a program
+
+
+for being idle i have a image: C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_idle(1).png
+
+for dancing i have two images:C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_dancing(1).png
+C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_dancing(2).png
+
+
+for dragging i have a image of rocky being dragged: C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_being_dragged.png
+
+for fistbumping i have frames: C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_fistbumping.png
+
+for rocky when moving left i have 3 images : C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_left(1).png
+C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_left(2).png
+C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_left(3).png
+
+for rocky when moving right i have 3 images : C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_right(1).png
+C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_right(2).png
+C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_right(3).png
+
+
+for when rocky is going to sleep i have 3 images :  C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_goingtosleep(1).png
+C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_goingtosleep(2).png
+and when asleep : C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_sleeping.png
+
+for rocky when waking up just reverse the order of images for sleeping process
+
+
+
+for greeting i have image : C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_waving.png
+
+for rocky watching movie i have a image : C:\Users\shubhAM\virtual_pet\rocky (1)\frames_gemini\rocky_watching_movie.png
+
+
+
+
+
+

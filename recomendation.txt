@@ -1,0 +1,53 @@
+1. Recommended Image Size for Desktop
+For an ambient desktop pet, displaying at 194 × 204 px (or ~150–200 px) on screen is the sweet spot:
+
+Why not display at 776 × 816? On a standard 1080p monitor (1920 × 1080), a window measuring 776 × 816 px would cover over 75% of your screen height and almost half the screen width. That is too large for an ambient companion that sits on top of your windows while you work.
+Why 194 × 204 px is ideal: It gives Rocky enough detail to show his 5-legged carapace, tools, and gestures clearly without obstructing your browser, IDE, or desktop workspace.
+2. Which files should you keep?
+TIP
+
+Keep and use the high-resolution (776 × 816) source images!
+
+Having 776 × 816 frames is actually an advantage:
+
+Crisp on High-DPI / 2K / 4K monitors: Downsampling a 776 × 816 image to ~194 × 204 using Pillow's Image.Resampling.LANCZOS produces anti-aliased, razor-sharp graphics without pixelation.
+Configurable scale: We can add a scale factor or size toggle in the code (e.g. Small: ~145×153, Normal: ~194×204, Large: ~291×306) so you can change his size whenever you want.
+Both resolutions share the exact same aspect ratio ($194 \times 4 = 776$ and $204 \times 4 = 816$).
+3. File Organization & Format Tips
+To make loading Rocky's animation frames seamless in Python:
+
+Format: Save as .png with a transparent background (RGBA).
+Folder Structure: Put them in an assets/ or sprites/ directory inside c:\Users\shubhAM\virtual_pet\:
+virtual_pet/
+├── assets/
+│   ├── idle/
+│   │   ├── frame_0.png
+│   │   ├── frame_1.png
+│   │   └── ...
+│   ├── walk/
+│   ├── happy/
+│   └── sleep/
+├── pet_app.py
+└── requirements.txt
+(Even if you only have idle or a single set of frames to start with, we can animate between them easily!)
+4. Project Hail Mary / Rocky Theming Ideas
+Once your images are ready, we can update 
+
+pet_app.py
+ with Project Hail Mary touches:
+
+Feeding: Feed him Astrophage (or xenonite cylinders).
+Interactions: Double-click or menu to "Fist my bump!" 👊 and play with tape/engineering tools.
+Voice / Speech Bubbles: Display floating Eridian chords and quotes above Rocky:
+"Amaze! Amaze! Amaze!"
+"Fist my bump!"
+"Good. Proud. Happy."
+"♪ ♫ ♬"
+"Question?"
+Stats: Xenonite Integrity, Astrophage Fuel / Energy, and Camaraderie / Trust.
+How would you like to proceed?
+Where are your frame files currently located? You can place them into an assets/ folder in this project, and I will update 
+
+pet_app.py
+ to load, animate, and scale them cleanly.
+2:41 PM
